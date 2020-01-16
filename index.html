@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Cifra de César</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Cifra de César</h1>
+	<h3>Codifique uma mensagem</h3>
+	<div id="fundo-div">
+		<label>Parâmetro(0 - 26):</label>
+		<input type="number" name="param" id="param">
+		<br>
+		<label>Insira a mensagem:</label>	
+		<textarea type="text" name="msg" id="msg" rows="10px" cols="60px"></textarea>
+		<br>
+		<button onclick="codificar()" id="btn" type="submit">Codificar</button>
+		<script src="script.js"></script>
+		<br>
+		<p id="res">A mensagem codificada aparecerá aqui</p>
+	</div>
+
+</body>
+</html>

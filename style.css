@@ -1,0 +1,63 @@
+body{
+
+	font-family: monospace;
+	font-size: 17px;
+
+
+}
+
+
+h1,h3{
+
+	text-align: center;
+
+}
+
+
+
+#fundo-div{
+
+	margin:0 auto;
+	max-width: 450px;
+	background-color: orange;
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+
+
+}
+
+textarea{
+
+	resize:vertical;
+
+
+}
+
+#btn{
+
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: green;
+	color:white;
+	float:right;
+	margin-top: 10px;
+
+
+}
+
+#res{
+
+	background-color: white;
+	margin-top: 40px;
+	padding: 10px;
+
+}
+
+#btn:hover{
+
+	background-color: lightgreen;
+
+
+}
